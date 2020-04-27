@@ -34,7 +34,7 @@ fn main() {
             "clone",
             "--depth",
             "1",
-            "https://github.com/lkl/linux.git",
+            "https://github.com/jackkleeman/linux.git",
             out_dir.as_str(),
         ];
         Command::new("git")
